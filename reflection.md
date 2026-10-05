@@ -19,3 +19,8 @@ I still need more practice with Git and GitHub, especially branches, merging, an
 ## 5. What am I looking forward to learning next?
 
 I am looking forward to learning more about programming, building projects, and improving my problem-solving skills.
+
+
+## Week 1 Summary
+
+This week was a great start to my journey at Averon Academy. I am looking forward to learning more and improving my technical skills.
