@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Greeting App | Averon Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="greeting-card">
+        <p class="tagline">AVERON ACADEMY · WEEK 3</p>
+
+        <h1>Welcome to My Greeting App! 👋</h1>
+
+        <p class="intro">
+            Enter your name below, and I'll create a personalized greeting for you.
+        </p>
+
+        <form id="greetingForm">
+            <label for="nameInput">What's your name?</label>
+
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="Enter your name"
+                autocomplete="given-name"
+            >
+
+            <button type="submit">Say Hello!</button>
+        </form>
+
+        <p id="greetingMessage" class="message" aria-live="polite">
+            Your greeting will appear here.
+        </p>
+
+        <button type="button" id="colorButton" class="secondary-button">
+            Change Background Color
+        </button>
+    </main>
+
+    <footer>
+        <p>Built by Abdulsamad Abibu while learning JavaScript.</p>
+    </footer>
+</body>
+</html>
