@@ -1,0 +1,40 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts Explorer | Week 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Posts Explorer</h1>
+        <p>Explore posts loaded from an online API.</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <label for="searchInput">Search posts by title</label>
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Type a title to search..."
+            >
+        </section>
+
+        <p id="statusMessage" role="status" aria-live="polite">
+            Loading posts...
+        </p>
+
+        <section id="postsContainer" class="posts-grid" aria-label="Posts">
+        </section>
+    </main>
+
+    <footer>
+        <p>Week 4 Project — Averon Academy</p>
+    </footer>
+</body>
+</html>
+```
