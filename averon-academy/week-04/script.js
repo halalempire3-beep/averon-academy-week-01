@@ -43,8 +43,18 @@ async function fetchPosts() {
     statusMessage.classList.remove("error-message");
 
     try {
-        const response = await fetch(
-            "https://jsonplaceholder.typicode.com/posts"
+       const controller = new AbortController();
+
+const timeoutId = setTimeout(() => {
+    controller.abort();
+}, 15000);
+
+const response = await fetch(
+    "https://jsonplaceholder.typicode.com/posts",
+    { signal: controller.signal }
+);
+
+clearTimeout(timeoutId);
         );
 
         if (!response.ok) {
