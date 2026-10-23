@@ -1,0 +1,144 @@
+```css
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Page header */
+header {
+    background-color: #1d4ed8;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 2.3rem;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    min-height: 60vh;
+}
+
+/* Search section */
+.search-section {
+    margin-bottom: 25px;
+}
+
+.search-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#searchInput:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+/* Loading message and errors */
+#statusMessage {
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: #b91c1c;
+}
+
+/* Posts layout */
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+/* Individual post cards */
+.post-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    overflow-wrap: anywhere;
+}
+
+.post-card h2 {
+    margin-top: 0;
+    color: #1d4ed8;
+    font-size: 1.15rem;
+}
+
+.post-card p {
+    margin-bottom: 0;
+    color: #475569;
+}
+
+.post-number {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Tablet layout */
+@media (max-width: 800px) {
+    .posts-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobile layout */
+@media (max-width: 550px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 92%;
+    }
+}
+```
