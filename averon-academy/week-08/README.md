@@ -70,3 +70,26 @@ Through this project, I practiced:
 
 ## Author
 Averon Academy Week 8 Capstone Project.
+## Testing Results
+
+The following features were tested successfully:
+
+- Adding new tasks.
+- Editing task names.
+- Deleting tasks.
+- Marking tasks as completed.
+- Searching for tasks.
+- Filtering pending and completed tasks.
+- Saving tasks in localStorage.
+- Restoring saved tasks after refreshing the page.
+
+## Responsive Design
+
+The application uses CSS media queries to adjust its layout for mobile phones and desktop screens.
+
+## Future Improvements
+
+- Add user authentication.
+- Add task reminders.
+- Allow editing task priorities and due dates.
+- Add calendar integration.
