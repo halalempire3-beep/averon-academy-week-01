@@ -1,3 +1,9 @@
+## Live Demo
+
+You can access the deployed application here:
+
+https://averon-academy-week-01-6pfu.vercel.app
+
 # Student Task Manager Pro
 
 ## Project Overview
